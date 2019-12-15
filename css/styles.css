@@ -1,6 +1,17 @@
 <!-- LOADING FONTS [OPEN SANS, QUICKSAND] -->  
 @import url('https://fonts.googleapis.com/css?family=Open+Sans|Quicksand&display=swap');
 
+<style>
+    body {
+        background-image: url("img/img_bgHero.jpg");
+        background-color: #e3e3e3e3;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 1230px;  
+    }
+</style>
+
 <!-- NAVIGATION -->   
   header{
     height: 180px;
