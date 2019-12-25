@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Quicksand&display=swap');
+
+body {
+    margin: 0 12em;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* HEADER */ 
+header {
+   text-align: center;
+}
+
+.logo {
+    height: 5%;
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav li {
+    display: inline-block;
+    padding: 2em;
+}
+
+ul li a {
+    transition: all 0.3s ease 0s;
+    color: black;
+}
+
+ul li a:hover {
+    color: #0088a9;
+}
+
+a, a:active, a:visited, a:hover {
+    text-decoration: none;
+}
+
+/* PORTFOLIO */ 
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  
+  .column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+    padding: 2em;
+  }
+
+.cardLarge {
+    padding: 2em;
+}
+
+/* FOOTER */ 
+footer {
+    width: 100%;
+    height: auto;
+}
+
+footer p {
+    text-align: center;
+    border-top: .1em solid black;
+    padding: 2em 0;
+}
+
+/* TYPOGRAPHY */ 
+h1 {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 100;
+    font-size: 2em;
+    text-align: center;
+    color: black;  
+}
+
+h2 {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 100;
+    font-size: 1.5em;
+    color: black;  
+}
+    
+h3 {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 100;
+    font-size: 1.25em;
+    text-align: center;
+    color: black;
+}
+
+ul {
+    list-style-type: none;
+    padding-inline-start: 0em;
+}
+
+li {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 100;
+    font-size: 1.25em;
+    text-decoration: none;
+    color: black;   
+}
+
+/* MEDIA QUERRIES */ 
